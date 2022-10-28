@@ -1,4 +1,4 @@
-import pygame, sys, random 
+import random, sys, pygame
 
 def draw_floor(): #this function control the animation of the loop
 	screen.blit(floor_surface,(floor_x_position,900))
