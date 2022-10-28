@@ -64,7 +64,7 @@ def update_score(score, high_score):
 # pygame.mixer.pre_init(frequency = 44100, size = 16, channels = 3, buffer = 512)
 pygame.init() #Initializing the game 
 screen = pygame.display.set_mode((576,1024)) # creating a window and setting the size of the window 
-clock = pygame.time.Clock() # created a clock variaable to control the frame rate
+clock = pygame.time.Clock()
 game_font = pygame.font.Font('#44v2.ttf',50)
 
 #Game Variables
